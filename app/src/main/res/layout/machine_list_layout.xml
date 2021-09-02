@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="2.5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="aakash"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/showMachine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+</androidx.cardview.widget.CardView>

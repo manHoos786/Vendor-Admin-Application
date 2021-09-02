@@ -1,0 +1,2 @@
+rootProject.name = "Vendor Admin"
+include ':app'

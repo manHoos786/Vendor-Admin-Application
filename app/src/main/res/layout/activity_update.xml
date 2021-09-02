@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Price :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <EditText
+            android:id="@+id/getPrice"
+            android:gravity="right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Quantity :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <EditText
+            android:id="@+id/getQuantity"
+            android:gravity="right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:text="Update product"
+        android:id="@+id/updateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:text="Update image"
+        android:id="@+id/updateImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:id="@+id/deleteProduct"
+        android:layout_margin="10dp"
+        android:text="Delete product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+<!--    android:hint="New price "-->
+<!--    android:hint="New quantity "-->
+<!--    android:hint="New product id "-->
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Price : "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/priceEditText"
+                android:gravity="right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Quantity : "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/quantityEditText"
+                android:gravity="right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editMachine"
+            android:text="Edit product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+
+        <ImageView
+            android:id="@+id/showProductImager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"></ImageView>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<!--price, quantity, product id, image, status-->
